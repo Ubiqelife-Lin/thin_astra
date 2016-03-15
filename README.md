@@ -1,8 +1,8 @@
 #thin_astra
 
-<a href="http://i.imgur.com/kT8F4uj.png"><img src="http://i.imgur.com/kT8F4uj.png" alt="alt text" width="300px" ></a>
-<a href="http://i.imgur.com/RNEuPdt.png"><img src="http://i.imgur.com/RNEuPdt.png" alt="alt text" width="300px" ></a>
-<a href="http://i.imgur.com/Y96hYDA.png"><img src="http://i.imgur.com/Y96hYDA.png" alt="alt text" width="300px"></a></br>
+<a href="http://i.imgur.com/kT8F4uj.png"><img src="http://i.imgur.com/kT8F4uj.png" alt="alt text" width="280" ></a>
+<a href="http://i.imgur.com/RNEuPdt.png"><img src="http://i.imgur.com/RNEuPdt.png" alt="alt text" width="280" ></a>
+<a href="http://i.imgur.com/Y96hYDA.png"><img src="http://i.imgur.com/Y96hYDA.png" alt="alt text" width="280"></a></br>
 ROS Node for the ORBBEC Astra RGBD camera, following the thin philosophy
 
 Dependencies:
