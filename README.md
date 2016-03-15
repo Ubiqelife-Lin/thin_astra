@@ -45,7 +45,8 @@ Dependencies:
 `rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0 _sync:=1 _registration:=1`
 
 ####Notes
-The camera matrix has been recycled from the xtion pro live.
+- The camera matrix has been recycled from the xtion pro live.
+- Right now the CMakeLists is still not optimized for ARM (and also I don't know if the custom ORBBEC OPENNI2 library has been optimized too), so if you want to use on raspberry/odroid/banana's keep in mind that you it would be better to add the needed flags!
 
 ####Conclusions
 
