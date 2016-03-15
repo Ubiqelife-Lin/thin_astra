@@ -16,7 +16,7 @@ Dependencies:
 - By deafault the device (fw 1.05) does not provide hardware sync.
 - But hardware sync is good. We really want it.
 - Guys at ORBBEC provided an updated firmware here (https://www.dropbox.com/sh/8av03t5o5co3np7/AACkfn4JYIIh6UsONpfkwFiba?dl=0), please read all the discussion here (https://3dclub.orbbec3d.com/t/rgb-d-sync-project/265)
--HARDWARE SYNC DEPENDS ON THIS!!!!
+- HARDWARE SYNC DEPENDS ON THIS!!!!
 
 ##How to compile
 
@@ -26,19 +26,19 @@ Dependencies:
 ##How to use
 
 ###CHECKING THE AVAILABLE PARAMETERS
-rosrun thin_astra thin_astra_node
+`rosrun thin_astra thin_astra_node`
 
 ### GIMME THE DEPTH
-rosrun thin_astra thin_astra_node _device _device_num:=0 _depth_mode:=0 //if you have just one device and you want depth in mm
+`rosrun thin_astra thin_astra_node _device _device_num:=0 _depth_mode:=0` //if you have just one device and you want depth in mm
 
 ### GIMME THE COLORS
-rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0//if you have just one device and you really want just the colors
+`rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 `//if you have just one device and you really want just the colors
 
 ### GIMME BOTH!
-rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0
+`rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0`
 
 ### I WANT COLORS, DEPTH, SYNCHRONIZATION AND REGISTRATION 
-rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0 _sync:=1 _registration:=1
+`rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0 _sync:=1 _registration:=1`
 
 
 
