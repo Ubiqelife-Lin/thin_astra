@@ -1,5 +1,8 @@
 #thin_astra
 
+![depth](http://i.imgur.com/kT8F4uj.png)
+![rgb](http://i.imgur.com/RNEuPdt.png)
+![rgbd](http://i.imgur.com/Y96hYDA.png)
 ROS Node for the ORBBEC Astra RGBD camera, following the thin philosophy
 
 Dependencies:
@@ -40,8 +43,11 @@ Dependencies:
 ### I WANT COLORS, DEPTH, SYNCHRONIZATION AND REGISTRATION 
 `rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0 _sync:=1 _registration:=1`
 
+####Notes
+The camera matrix has been recycled from the xtion pro live.
 
-####Thanks
+####Conclusions
+
 ![labs](http://i.imgur.com/fbFHgXo.png)
 
 
