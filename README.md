@@ -1,6 +1,6 @@
 #thin_astra
 
-![depth](http://i.imgur.com/kT8F4uj.png | width=100)
+![depth](http://i.imgur.com/kT8F4uj.png width=100)
 ![rgb](http://i.imgur.com/RNEuPdt.png =250px)
 ![rgbd](http://i.imgur.com/Y96hYDA.png =250px)
 ROS Node for the ORBBEC Astra RGBD camera, following the thin philosophy
