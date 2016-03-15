@@ -41,6 +41,7 @@ Dependencies:
 `rosrun thin_astra thin_astra_node _device _device_num:=0  _rgb_mode:=0 _depth_mode:=0 _sync:=1 _registration:=1`
 
 
-
+####Thanks
+![labs](http://i.imgur.com/fbFHgXo.png)
 
 
