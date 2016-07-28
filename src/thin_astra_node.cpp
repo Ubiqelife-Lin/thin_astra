@@ -1,6 +1,7 @@
 #include <ros/ros.h>
 #include <sensor_msgs/Image.h>
 #include <sensor_msgs/CameraInfo.h>
+#include <sensor_msgs/distortion_models.h>
 #include <stdio.h>
 #include <iostream>
 #include <OpenNI.h>
@@ -86,6 +87,10 @@ void* camera_thread(void*){
 	  depth_info.height=frame.getHeight();
 
 	  depth_info.header.seq = count;
+
+    depth_info.distortion_model = sensor_msgs::distortion_models::PLUMB_BOB;
+    depth_info.D.resize(5, 0.0);
+
 	  depth_info.K[0]=depth_info.width/(2*tan(depth.getHorizontalFieldOfView()/2)); //fx
 	  depth_info.K[4]=depth_info.height/(2*tan(depth.getVerticalFieldOfView()/2));; //fy
 	  depth_info.K[2]=depth_info.width/2; //cx
